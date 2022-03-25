@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Hello World! (statico)</h1>
+    <h1>{{$stringa}} (dinamico)</h1>
 </body>
 </html>
