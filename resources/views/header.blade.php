@@ -9,34 +9,32 @@
 
         <style>
 
-            .logo{
-                margin-top: 2rem;
-            }
-
-            nav{
+            header{
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 1.5rem;
+            }
+            header a{
+                text-decoration: none;
+                color: #000;
             }
 
+            header a:hover{
+                color: #00f;
+            }
             header li{
                 display: inline;
                 list-style: none;
             }
 
-            header li a {
-                text-decoration: none;
-                color: #000;
-            }
-
-            header li a:hover{
-                color: #00f;
-            }
+            
         </style>
     </head>
 
     <body>
         <header>
-            <div class="logo">
+            <div>
                 <a href="/">FirstPage(logo)</a>
             </div>
             <nav>
@@ -44,7 +42,9 @@
                     <li><a href="home">Home</a></li>
                     <li><a href="prodotti">Prodotti</a></li>
                     <li><a href="contatti">Contatti</a></li>
-                    <li><a href="carrello">Carrello</a></li>
                 </ul>
             </nav>
+            <div>
+                <a href="carrello">Carrello</a>
+            </div>
         </header>

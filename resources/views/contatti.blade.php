@@ -11,6 +11,7 @@
     @include("header")
 
     <main>
+        <h1>Contatti del sito</h1>
         <p>
             <div>email: aaa@bbb.it</div>
             <div>indirizzo: via aaaa, 00</div>

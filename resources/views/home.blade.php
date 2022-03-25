@@ -1,7 +1,7 @@
     @include("header")
 
     <main>
-        <div>Home del sito</div>
+        <h1>Home del sito</h1>
     </main>
         
     </body>
